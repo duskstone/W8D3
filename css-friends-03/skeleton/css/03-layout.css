@@ -1,0 +1,28 @@
+/* PHASE 3: Layout */
+
+.content{
+    position: relative;
+    width: 900px;
+    padding: 5px;
+    display:  block;
+}
+
+/* .body{
+    display: flex;
+    justify-content: center;
+} */
+.content-sidebar{
+    display:  block;
+    width: 300px;
+    background: yellow;
+    min-height: 200px;
+    float: left;
+}
+
+.content-main{
+    /* position: absolute; */
+    display:  block;
+    width: 600px;
+    background: blue;
+    min-height: 200px;
+}
